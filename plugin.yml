@@ -1,0 +1,12 @@
+name: RAdmin
+main: org.riderj.RAdmin.RAdmin
+version: .01
+commands:
+    rahelp:
+      description: Get a list of RAdmin commands.
+    kick:
+      description: Kick a player from the server.
+      usage: Usage - /kick <player> <reason>
+    ban:
+       description: Bans a player from the server.
+       usage: Usage - /ban <player> <reason>
